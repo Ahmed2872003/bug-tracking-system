@@ -1,0 +1,107 @@
+• Introduction
+
+    • purpose
+        
+        The purpose of this system (defect tracking application) is to efficiently track software bugs
+        observed by customers who use the system.
+
+    • Scope 
+
+        The scope of the bug tracking system is software that helps customers to have the solution for 
+        bugs of the system's created projects. Also, it will help developers (staff) to know bug details to solve it. So the 
+        system is a relationship between customers with their bugs and the staff who will solve those bugs. Under 
+        control the admin who manages which bugs are assigned to whom from the staff, determines both functional and 
+        non-functional requirements of the bug tracking system. Also, the document provides an overall description 
+        Of the bug-tracking system with UML analysis models.
+    
+• Functional Requirements:
+
+    • A user shall be able to:
+        
+        • Log in to the system.
+
+        • Log out from the system.  
+
+        • Manage profile.
+
+    • An administrator shall be able to: 
+
+        • Register on the application.  
+        
+        • Manage staff members.
+
+        • Manage projects.
+    
+        • View bugs sent by the customers and their case-flow status & details.  
+        
+        • Assign the work to (a) staff member(s).
+        
+        • Send solution message to the customer.
+
+        • Get a project report.
+
+    • Staff members shall be able to:
+
+        • View assigned bugs.
+        
+        • Staff will able to view bug flow.
+
+        • Assign bugs to other staff members if the bug is related to them.
+        
+        • Send solution messages to the admin.
+
+        • Change bug status.
+
+    • A customer shall be able to:
+
+        • Register on the application.
+
+        • Manage bug.
+
+        • Send bug details with a print screen to the admin.
+
+        • Monitor bug case-flow details, status, and solution details using the ticket number that is generated during bug creation.
+
+        • Manage feedback.
+
+    • The system shall automatically send an email to inform:
+        
+        • The admin that there is a new bug sent by the customer to a specific project. 
+
+        • The staff member that he is assigned to work.
+
+        • The customer with new bug updates.
+
+• Non-Functional Requirements:
+    
+    • Product Requirements:
+
+        • Usability 
+            
+            The user interface shall be intuitive and accessible to all users.
+        
+        • Security 
+            
+            User authentication shall be secure by encrypting passwords.
+
+        • Maintainability 
+            
+            Code shall be easily maintainable by developers.
+
+        • Scalability 
+        
+            The system shall be able to handle increasing numbers of users and bugs.
+
+        • Performance 
+            
+            The system shall respond in a short time.
+    
+    • Constraints:
+
+        • The application shall:
+        
+            • Operate in various browsers (google, Firefox, Microsoft Edge, Opera).
+
+            • Be implemented using PHP on the server side, MYSQL database, and HTML, CSS, and JS on the client side.
+
+            • Be used in an organization to interact with its customers and solve their product bugs.
